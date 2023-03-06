@@ -69,7 +69,7 @@ print()
 
 n = int(input())
 even_list = list(Even_to(n))
-for i in range(len(even_list)-2):
+for i in range(len(even_list)-1):
     print(even_list[i], end=', ')
 print(even_list[len(even_list)-1])
 
